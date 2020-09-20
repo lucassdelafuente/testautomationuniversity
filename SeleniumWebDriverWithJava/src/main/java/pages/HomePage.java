@@ -11,6 +11,11 @@ public class HomePage {
         this.driver = driver;
     }
 
+    public AddRemovePage clickAddRemoveElements(){
+        clickLink("Add/Remove Elements");
+        return new AddRemovePage(driver);
+    }
+
     public LoginPage clickFormAuthentication(){
         clickLink("Form Authentication");
         return new LoginPage(driver);

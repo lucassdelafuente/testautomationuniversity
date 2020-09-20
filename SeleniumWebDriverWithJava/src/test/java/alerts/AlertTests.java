@@ -9,7 +9,7 @@ import static org.testng.Assert.assertEquals;
 public class AlertTests extends BaseTest {
 
     @Test (priority = 0)
-    public void TestAcceptAlert(){
+    public void testAcceptAlert(){
 
         AlertsPage alertsPage = homePage.clickJSAlert();
         alertsPage.triggerAlert();
