@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59eb8ccb-cc2b-40f1-a411-696c3114875c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AddRemovePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/addRemoveElements/AddTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/addRemoveElements/RemoveTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screenshots/basicAuth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasicAuthPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BrokenImagesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basicAuth/basicAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/brokenImage/BrokenImageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +48,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1hnE2kmYMvb9NBxLYZ35xqmHZu5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -60,7 +66,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.testSuccessfulLogin">
+  <component name="RunManager" selected="TestNG.BrokenImageTest.checkBrokenImage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -99,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTests.testAddElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrokenImageTest.checkBrokenImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addRemoveElements.*" />
+          <option name="PATTERN" value="brokenImage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addRemoveElements" />
-      <option name="MAIN_CLASS_NAME" value="addRemoveElements.AddTests" />
-      <option name="METHOD_NAME" value="testAddElement" />
+      <option name="PACKAGE_NAME" value="brokenImage" />
+      <option name="MAIN_CLASS_NAME" value="brokenImage.BrokenImageTest" />
+      <option name="METHOD_NAME" value="checkBrokenImage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -155,18 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveTests.testRemoveAllElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdriver_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addRemoveElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="addRemoveElements" />
-      <option name="MAIN_CLASS_NAME" value="addRemoveElements.RemoveTests" />
-      <option name="METHOD_NAME" value="testRemoveAllElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -174,8 +170,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="basicAuthTest.basicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicAuth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basicAuth" />
+      <option name="MAIN_CLASS_NAME" value="basicAuth.basicAuthTest" />
+      <option name="METHOD_NAME" value="basicAuth" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -193,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AddTests.testAddElement" />
-      <item itemvalue="TestNG.RemoveTests" />
-      <item itemvalue="TestNG.RemoveTests.testRemoveAllElements" />
       <item itemvalue="TestNG.AddTests" />
       <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
+      <item itemvalue="TestNG.RemoveTests" />
+      <item itemvalue="TestNG.basicAuthTest.basicAuth" />
+      <item itemvalue="TestNG.BrokenImageTest.checkBrokenImage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BrokenImageTest.checkBrokenImage" />
+        <item itemvalue="TestNG.basicAuthTest.basicAuth" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
         <item itemvalue="TestNG.RemoveTests" />
         <item itemvalue="TestNG.AddTests" />
-        <item itemvalue="TestNG.RemoveTests.testRemoveAllElements" />
-        <item itemvalue="TestNG.AddTests.testAddElement" />
       </list>
     </recent_temporary>
   </component>
@@ -220,60 +226,83 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="483" y="135" key="#xdebugger.evaluate" timestamp="1600642247528">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="483" y="135" key="#xdebugger.evaluate/0.23.1440.804@0.23.1440.804" timestamp="1600642247528" />
-    <state width="1398" height="393" key="GridCell.Tab.0.bottom" timestamp="1600642539445">
+    <state width="1398" height="466" key="GridCell.Tab.0.bottom" timestamp="1601850393502">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="393" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1600642539445" />
-    <state width="1398" height="393" key="GridCell.Tab.0.center" timestamp="1600642539444">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907597" />
+    <state width="1398" height="466" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1601850393502" />
+    <state width="1398" height="61" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1601824640994" />
+    <state width="1398" height="466" key="GridCell.Tab.0.center" timestamp="1601850393502">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="393" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1600642539444" />
-    <state width="1398" height="393" key="GridCell.Tab.0.left" timestamp="1600642539443">
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907596" />
+    <state width="1398" height="466" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1601850393502" />
+    <state width="1398" height="61" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1601824640993" />
+    <state width="1398" height="466" key="GridCell.Tab.0.left" timestamp="1601850393501">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="393" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1600642539443" />
-    <state width="1398" height="393" key="GridCell.Tab.0.right" timestamp="1600642539444">
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907595" />
+    <state width="1398" height="466" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1601850393501" />
+    <state width="1398" height="61" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1601824640993" />
+    <state width="1398" height="466" key="GridCell.Tab.0.right" timestamp="1601850393502">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="393" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1600642539444" />
-    <state width="1398" height="195" key="GridCell.Tab.1.bottom" timestamp="1600642518083">
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907596" />
+    <state width="1398" height="466" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1601850393502" />
+    <state width="1398" height="61" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1601824640994" />
+    <state width="1398" height="61" key="GridCell.Tab.1.bottom" timestamp="1601824640995">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.1.bottom/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907598" />
+    <state width="1398" height="195" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1601824546337" />
+    <state width="1398" height="61" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1601824640995" />
+    <state width="1398" height="195" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1601824552338" />
+    <state width="1398" height="61" key="GridCell.Tab.1.center" timestamp="1601824640995">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.1.center/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907597" />
+    <state width="1398" height="195" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1601824546337" />
+    <state width="1398" height="61" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1601824640995" />
+    <state width="1398" height="195" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1601824552337" />
+    <state width="1398" height="61" key="GridCell.Tab.1.left" timestamp="1601824640994">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.1.left/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907597" />
+    <state width="1398" height="195" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1601824546336" />
+    <state width="1398" height="61" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1601824640994" />
+    <state width="1398" height="195" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1601824552337" />
+    <state width="1398" height="61" key="GridCell.Tab.1.right" timestamp="1601824640995">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="195" key="GridCell.Tab.1.right/0.23.1440.804/1440.-90.1920.1057@0.23.1440.804" timestamp="1600691907598" />
+    <state width="1398" height="195" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1601824546337" />
+    <state width="1398" height="61" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1601824640995" />
+    <state width="1398" height="195" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1601824552337" />
+    <state x="258" y="87" key="Maven.ArtifactSearchDialog" timestamp="1601849284689">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1600642518083" />
-    <state width="1398" height="195" key="GridCell.Tab.1.center" timestamp="1600642518082">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1600642518082" />
-    <state width="1398" height="195" key="GridCell.Tab.1.left" timestamp="1600642518082">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1600642518082" />
-    <state width="1398" height="195" key="GridCell.Tab.1.right" timestamp="1600642518083">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1600642518083" />
+    <state x="258" y="87" key="Maven.ArtifactSearchDialog/0.23.1440.804@0.23.1440.804" timestamp="1601849284689" />
     <state width="720" height="402" key="XDebugger.FullValuePopup" timestamp="1600642246758">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="720" height="402" key="XDebugger.FullValuePopup/0.23.1440.804@0.23.1440.804" timestamp="1600642246758" />
-    <state x="418" y="180" width="604" height="490" key="find.popup" timestamp="1600641304930">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state x="418" y="180" width="604" height="492" key="find.popup" timestamp="1601824602422">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="418" y="180" width="604" height="490" key="find.popup/0.23.1440.804@0.23.1440.804" timestamp="1600641304930" />
+    <state x="418" y="180" width="604" height="492" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1601824602422" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/base/BaseTest.java</url>
           <line>128</line>

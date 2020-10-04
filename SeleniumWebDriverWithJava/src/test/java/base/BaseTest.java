@@ -21,8 +21,8 @@ import java.util.Set;
 
 public class BaseTest {
     //Selenium Class, specific instance of Web Driver
-    private EventFiringWebDriver driver;
-    //private WebDriver driver;
+    //private EventFiringWebDriver driver;
+    private WebDriver driver;
     protected HomePage homePage;
 
     @BeforeClass
@@ -30,11 +30,11 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
 
         //Code for EventFiringWebDriver
-        // *driver = new EventFiringWebDriver(new ChromeDriver());
-        driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
-        driver.register(new EventReporter());
+        //driver = new EventFiringWebDriver(new ChromeDriver());
+        //driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
+        //driver.register(new EventReporter());
 
-        //driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         //Bad example

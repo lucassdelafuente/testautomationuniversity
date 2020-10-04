@@ -16,6 +16,16 @@ public class HomePage {
         return new AddRemovePage(driver);
     }
 
+    public BasicAuthPage clickBasicAuthPage(){
+        clickLink("Basic Auth");
+        return new BasicAuthPage(driver);
+    }
+
+    public BrokenImagesPage clickBrokenImage(){
+        clickLink("Broken Images");
+        return new BrokenImagesPage(driver);
+    }
+
     public LoginPage clickFormAuthentication(){
         clickLink("Form Authentication");
         return new LoginPage(driver);
