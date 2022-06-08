@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/restAssuredTutorialYT/restAssuredTutorialYT.iml" filepath="$PROJECT_DIR$/restAssuredTutorialYT/restAssuredTutorialYT.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/testautomationuniversity.iml" filepath="$PROJECT_DIR$/.idea/testautomationuniversity.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObservabilityProject/selenium-webdriver-java-course/webdriver_java/webdriver_java.iml" filepath="$PROJECT_DIR$/ObservabilityProject/selenium-webdriver-java-course/webdriver_java/webdriver_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeleniumWebDriverWithJava/webdriver_java (1).iml" filepath="$PROJECT_DIR$/SeleniumWebDriverWithJava/webdriver_java (1).iml" />
